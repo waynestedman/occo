@@ -1,0 +1,44 @@
+.slick-prev, .slick-next {
+    position: absolute;
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    padding: 0;
+    border: 0;
+    outline: 0;
+    z-index: 10;
+}
+
+display: block;
+
+
+************* In styles-l ******************************************
+
+.slick-next:before {
+    content: '\e608';
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'icons-blank-theme';
+    font-size: 60px;
+    line-height: 1;
+    color: #bfbfbf;
+    opacity: .75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+************* HTML ******************************************
+
+<button type="button" data-role="none" class="slick-next slick-arrow" aria-label="Next" role="button" style="display: block;">Next</button>

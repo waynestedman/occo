@@ -1,0 +1,186 @@
+// Custom styles for the VSC page
+$vscpeach: #fdcecb;
+
+.content-wrapper {
+  .sectionRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 0 4 0px 0;
+    padding: 0;
+  }
+  .sectionRow.-wrap {
+    flex-wrap: wrap;
+  }
+  h4 {
+    // margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .linkCTA {
+    color: darken($vscpeach, 4%);
+
+    &:hover {
+      color: lighten($vscpeach, 2%);
+    }
+  } // linkCTA
+
+} //content-wrapper
+
+// HeaderBanner section
+.headerBanner_imgL {
+  max-width: 18%;
+
+  img {
+    width: 100%;
+  }
+}
+.headerBanner_textBox {
+  text-align: center;
+
+  button {
+    margin-top: 10px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #fff;
+    background: $vscpeach;
+    border: 2px solid darken($vscpeach, 2%);
+
+    &:hover {
+      color: #FFF;
+      background: lighten($vscpeach, 2%);
+      // border: 2px solid;
+      // border-color: lighten($vscpeach, 4%);
+    }
+  }
+}
+.headerBanner_imgR {
+  max-width: 18%;
+}
+// Intro section
+.intro_mainText {
+  width: 40%;
+  margin-left: 8%;
+}
+.intro_img {
+  max-width: 50%;
+}
+.intro_blurb {
+  width: 40%;
+  margin-top: -130px;
+  margin-left: 8%;
+}
+// Benefits section
+.benefits_img {
+  max-width: 753px;
+} // benefits_img
+.benefits_list {
+  ul {
+    list-style-type: none;
+    width: 60%;
+  }
+} // benefits_list
+.benefits_blurb {
+  width: 22%;
+  margin-top: -220px;
+  margin-left: 8%;
+
+  span {
+    // font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+} // benefits_blurb
+// Videos section
+#videos {
+  border: 2px solid $vscpeach;
+  border-radius: 20px;
+  margin: 0 10px 40px 10px;
+
+  .video {
+    text-align: center;
+    width: 100%;
+  }
+}
+// details section
+.details_beforeafter {
+  .beforeafter_text {
+    margin-left: 8%;
+    width: 40%;
+  }
+  .slider {
+    margin: 0 60px;
+  }
+} // details_beforeafter
+.details_carousel {
+  text-align: center;
+  margin: 40px auto 32px auto;
+
+  .productCarousel {
+    width: 90%;
+    margin: 0 auto;
+
+    .product {
+      max-width: 25%;
+      height: 100%;
+
+      button {
+        border-color: $blue700;
+        color: $blue700;
+        padding: 12px 8px;
+
+        &:hover {
+          background-color: $blue700;
+          color: #FFF;
+        } // hover
+      } // button
+      img {
+        margin: 0 auto 20px auto;
+        width: 94px;
+        height: 358px;
+      }
+    } // product
+  } // productCarousel
+} // details_carousel
+.details_comments {
+  text-align: center;
+  background: url("../../images/brushstroke-velvet-skin-coat.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px 0 0 0;
+  height: 400px;
+
+  .commentsCarousel {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+
+  // .supportDetails-testimonial1, .supportDetails-testimonial2, .supportDetails-testimonial3 {
+  //   width: 86% !important;
+  // }
+  // .supportDetails-testimonial1 {
+  //   max-width: 1200px;
+  //
+  // }
+  // .supportDetails-testimonial2 {
+  //   max-width: 1200px;
+  //   display: none;
+  // }
+  // .supportDetails-testimonial3 {
+  //   display: none;
+  // }
+    blockquote {
+      font-weight: 300;
+      margin: 0 auto;
+    } // blockquote
+  } // commentsCarousel
+} // details_comments
+// conclusion
+.conclusion_img {
+  width: 50%;
+  padding: 0;
+} // conclusion_img
+.conclusion_text {
+  width: 40%;
+  margin-right: 10%;
+  margin-top: 140px;
+} // conclusion_text
