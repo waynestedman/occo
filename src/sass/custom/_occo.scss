@@ -1,0 +1,105 @@
+// Custom styles for the OCCO page
+$occogreen: #0e6c38;
+
+.content-wrapper {
+  .sectionRow {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+  .sectionRow.-wrap {
+    flex-wrap: wrap;
+  }
+  h1, h2, h3 {
+    color: $occogreen;
+  }
+  h4 {
+    // margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  .btn {
+    color: #FFF;
+    background-color: darken($occogreen, 4%);
+    padding: 8px 24px;
+
+    &:hover {
+      background-color: lighten($occogreen, 2%);
+    }
+  }
+  .linkCTA {
+    color: darken($occogreen, 4%);
+
+    &:hover {
+      color: lighten($occogreen, 2%);
+    }
+  } // linkCTA
+
+} //content-wrapper
+
+// Hero section
+#hero {
+  overflow: hidden;
+} // hero
+.heroImg-left, .heroImg-right {
+  width: 25%;
+}
+.hero-textBox {
+  text-align: center;
+  width: 50%;
+
+  a {
+    text-transform: uppercase;
+  }
+} // hero-textBox
+.heroImg-right {
+  margin-right: -10px;
+} // heroImg-right
+// Intro section
+#intro {
+  img {
+    width: 50%;
+    height: auto;
+  }
+} // intro
+.intro-textBox {
+  width: 85%;
+  margin-left: 8%;
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+// Ingredients section
+
+// Regimen section
+
+// Set section
+.set-textBox {
+  text-align: left;
+  width: 85%;
+  margin-left: 8%;
+
+  a {
+    text-transform: uppercase;
+  }
+} // set-textBox
+.setImg-right {
+  img {
+    // width: 50%;
+    height: auto;
+  }
+}
+// Testimonial section
+
+// Blog section
+#blog {
+  position: relative;
+}
+.blog-textBox {
+  position: absolute;
+  width: 85%;
+  left: 8%;
+  top: 8%;
+}
