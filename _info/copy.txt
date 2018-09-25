@@ -6,12 +6,12 @@ Hero CTA	Shop Now
 Hero CTA URL	https://www.dhccare.com/olive-concentrated-cleansing-oil.html
 
 
+“This is liquid GOLD! This product is the drink from the gods that my skin desperately needed. Not to mention the joy of smoothing it all over your face!”
+Trishy, Wilton, CT
 
 Sensory opulence
-Rich, luxurious Olive Concentrated Cleansing Oil removes all traces of makeup and dissolves impurities—all without upsetting your skin's pH balance and with no oily residue. Its delicate, all-natural fragrance comes from olive oil, its most abundant ingredient.
+Olive Concentrated Cleansing Oil merges innovative Japanese formulation with potent botanicals in a rich, luxurious facial cleanser that dissolves impurities while nourishing and protecting your skin.
 
-Plant power
-Olive oil maintains the skin's moisture barrier and helps protect and condition skin without clogging pores. Naturally occurring antioxidants help defy the signs of aging by fighting free-radical damage in surface skin cells.
 
 
 KEY INGREDIENTS
@@ -62,13 +62,9 @@ Moisturize
 Rich Moisture
 
 REGIMEN CTA	Shop Now
-REGIMEN CTA URL
 
 
-TESTIMONIAL
-“This is liquid GOLD!
-This product is the drink from the gods that my skin desperately needed. Not to mention the joy of smoothing it all over your face!”
-Trishy, Wilton, CT
+TESTIMONIALS
 
 “Outstanding!
 The cleansing oil is lightweight, smooth and efficiently removes makeup. After rinsing it off, I was really surprised how my skin felt… soft, dewy and primed for makeup or not!”
@@ -81,6 +77,10 @@ Lenna, Ann Arbor, MI
 “OMG… How can DHC improve a classic? They did.
 The best product. The concentrated oil is AMAZING!”
 Honey West, Dallas, TX
+
+“This is liquid GOLD!
+This product is the drink from the gods that my skin desperately needed. Not to mention the joy of smoothing it all over your face!”
+Trishy, Wilton, CT
 
 “Perfect solution
 I have very dry, very sensitive skin, and live in a very dry climate. I have struggled to find a solution for cleansing my skin. I really love this product.”
