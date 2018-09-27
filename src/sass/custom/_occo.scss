@@ -35,7 +35,12 @@ $occogreen: #0e6c38;
       color: lighten($occogreen, 2%);
     }
   } // linkCTA
-
+  .watermark {
+    margin: 0 auto;
+    display: block;
+    background: url("../../images/olive-illustration-right.svg") no-repeat fixed center;
+    height: 80px;
+  }
 } //content-wrapper
 
 // Hero section

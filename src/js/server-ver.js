@@ -1,3 +1,8 @@
+cript type="text/javascript" xml="space">// <![CDATA[
+require([
+  'jquery',
+  'slick'
+  ], function ($) {
 $(document).ready(function(){
   $('#ingredientsDesc').slick({
       arrows: false,
@@ -9,7 +14,7 @@ $(document).ready(function(){
       fade: true,
       cssEase: 'ease-in-out',
       pauseOnHover: true
-  }); // ingredients carousel
+  });
   $('#testimonialSlider').slick({
     dots: false,
     arrows: false,
@@ -18,7 +23,7 @@ $(document).ready(function(){
     fade: true,
     speed: 1200,
     cssEase: 'ease-in-out'
-  }); // testimonial slider
+  }); // comments slider
 // Regimen
   // Set intial tab states
   $("#regimenSimple").css("display", "block");
@@ -40,5 +45,7 @@ $(document).ready(function(){
     } else {
       console.log("Regimen selection error!");
     } // if else
-  }); // Regimen Tab click event
-}); // document ready
+  });// Regimen Tab click event
+});
+});
+// ]]></script>
