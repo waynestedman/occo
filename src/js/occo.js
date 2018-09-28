@@ -1,14 +1,39 @@
 $(document).ready(function(){
   $('#ingredientsDesc').slick({
-      arrows: false,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      dots: true,
-      infinite: true,
-      speed: 2000,
-      fade: true,
-      cssEase: 'ease-in-out',
-      pauseOnHover: true
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '#ingredientsSlider'
+  });
+  $('#ingredientsSlider').slick({
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    asNavFor: '#ingredientsDesc',
+    dots: false,
+    centerMode: true,
+    centerPadding: '60px',
+    focusOnSelect: true,
+    responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 5
+        }
+      },
+      {
+        breakpoint: 501,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      }
+    ]
   }); // ingredients carousel
   $('#testimonialSlider').slick({
     dots: false,
